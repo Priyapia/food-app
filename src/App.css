@@ -1,0 +1,270 @@
+/* tictactoe */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  margin: 20px;
+}
+.heading{
+  text-align: center;
+  text-transform: capitalize;
+  word-spacing: 10px;
+  font-size: 40px;
+background-color: aquamarine;
+margin-bottom: 10px;
+height: 70px;
+padding: 10px;
+}
+.square{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid black;
+  width: 50%;
+  height: 12vh;
+ 
+}
+.row{
+  width: 65%;
+  margin-left: 180px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.winner{
+  margin-left: 20px;
+  color: brown;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-top: 60px;
+}
+button{
+  color: cadetblue;
+  padding: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: bolder;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.link{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+}
+/* form */
+.form{
+  background-color: rgb(174, 193, 193);
+  height: auto;
+  width: 50%;
+  text-align: center;
+  margin: auto auto;
+}
+
+.inputfield{
+  margin: 10px ;
+  color: rgb(46, 70, 63);
+  font-size: 30px;
+  text-transform: capitalize;
+  
+}
+
+
+input{
+  width: 50%;
+  height: 30px;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-style: 1px solid ;
+  /* border-style: none; */
+  padding: 5px;
+  font-size: 20px;
+  color: rgb(53, 6, 33);
+  text-transform: capitalize;
+}
+
+
+
+/*
+.container{
+  width: 100%;
+  height: 100vh;
+  background-color: antiquewhite;
+}
+.heading h1{
+  width: 100%;
+  height: auto;
+  color: brown;
+  text-transform: uppercase;
+  font-size: 50px;
+  background-color: rgb(248, 219, 181);
+  word-spacing: 10px;
+  text-align: center;
+  padding-top: 10px;
+
+}
+.add-item{
+  margin-top: 10px;
+  background-color: rgb(240, 225, 207);
+  height: 60px;
+  padding: 10px;
+}
+.user-input{
+  width: 50%;
+  height: 40px;
+  border-radius: 10px;
+  border-style: none;
+  margin-left: 20px;
+  padding: 10px;
+  color: #000;
+  font-size: larger;
+  background-color: rgb(241 233 233);
+  text-transform: capitalize;
+  
+}
+
+.btn{
+  background-color: #fff;
+  color: rgb(65, 142, 103) ;
+    text-transform: capitalize;
+  width: auto;
+  height: 40px;
+  border-radius: 10px;
+  border-style: none;
+  font-size: 20px;
+  padding: 5px;
+  position: relative;
+  left: 200px;
+  
+}
+.btn:hover{
+  color: rgb(235, 242, 250);
+  background-color: rgb(65, 142, 103);
+ 
+}
+.display-container{
+  height: 50px;
+  width: 50%;
+  background-color: rgb(242 245 245 / 68%);
+  margin: 25px 20px;
+  padding: 5px;
+  display: flex;
+  justify-content:space-between;
+  border-radius: 10px;
+  
+}
+.display-container:hover{
+  background-color: rgb(232, 147, 147);
+}
+.displayData{
+  text-transform: capitalize;
+  padding: 10px;
+  font-size: larger;
+  color: black;
+
+}
+
+.displayData:hover{
+  color: rgb(130, 4, 4);
+  font-size: 25px;
+  padding: 2px;
+} */
+/* .board-container{
+  margin: 30px;
+} 
+
+.board-row{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+.square{
+  width: 100%;
+  height: 100px;
+  border:1px solid ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.header{
+  text-transform: capitalize;
+  text-align: center;
+  font-family:sans-serif;
+  color: rgb(127, 6, 93);
+  font-size: 30px;
+}
+button{
+  color: blue;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 5px 0;
+  background-color: rgb(20, 202, 193);
+  border: none;
+  border-radius: 5px;
+  width: 35%;
+  font-weight: bold;
+  font-size: 20px;
+ 
+  
+  
+} */
+
+/* todo  */
+/* .container{
+  width: 50%;
+  background-color: aquamarine;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 5%;
+  margin-left: 26%;
+}
+input{
+  width: 100%;
+  height: 40px;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-style: 1px solid ;
+  border-style: none;
+  padding: 5px;
+  font-size: 20px;
+  color: rgb(226, 40, 149);
+}
+.List-heading{
+  text-transform: uppercase;
+  color: rgb(50, 12, 174);
+  background-color: beige;
+  border-radius: 10px;
+  text-align: left;
+  padding: 5px;
+  font-weight: bolder;
+  border: 1px solid rgb(18, 169, 83);
+  
+}
+.listData{
+  width: 55%;
+  background-color: rgb(93, 188, 244);
+  margin-top: 10px;
+  border-radius: 10px;
+  color: #000;
+  text-transform: capitalize;
+text-align: left;
+padding: 2% ;
+}
+.btn-position{
+  position: relative;
+  left:35%;
+  top:-54px;
+} */ 
