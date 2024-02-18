@@ -6,6 +6,7 @@ function Header() {
         <div id="title">
           <img src={logoImg} alt="food image" />
           <h1>Foodorder</h1>
+          <p>this is a food order project</p>
         </div>
         <nav>
           <button>Cart (0)</button>
